@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <Employee v-bind:employee="results" />
+    <Employees v-bind:employees="results" />
   </div>
 </template>
 
 <script>
-import Employee from "../components/Employee";
+import Employees from "../components/Employees";
 import axios from "axios";
 export default {
   name: "Home",
   components: {
-    Employee,
+    Employees,
   },
   data() {
     return {

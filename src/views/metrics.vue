@@ -1,8 +1,8 @@
 <template>
   <div class="chart">
-    <br/>
+    <br />
     <p>This is simple chart with randomized data</p>
-    <Chart/>
+    <Chart />
   </div>
 </template>
 
@@ -11,9 +11,9 @@ import Chart from "../components/Chart";
 export default {
   name: "Employee",
   components: {
-    Chart
+    Chart,
   },
-  }
+};
 </script>
 
 <style scoped>

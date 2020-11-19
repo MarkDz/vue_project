@@ -1,5 +1,6 @@
 # vue_project
-
+### Description:
+### A simple web app developed in Vue.js 
 ## Project setup
 ```
 npm install
